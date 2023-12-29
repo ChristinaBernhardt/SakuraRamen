@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+eher umspringen auf kleineres Format
+Menüs mit Abstand zum text. Zeiger zum Ponter beim Übersetzen
+
+
+-->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sakura Ramen - The best Ramen in Town</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="./img/sakura_logo.svg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Economica:wght@700&family=Raleway:wght@400;700&display=swap"
+    rel="stylesheet">
+  <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="6aab00e8-e0de-430e-8cba-7916104c712c"
+    data-blockingmode="auto"></script>
+
+</head>
+
+<body class="mybody">
+  <div class="maincontainer">
+    <div class="head">
+      <img class="flower" src="./img/sakura_logo.png" alt="Sakuralogo">
+      <div class="menu">
+        <a href="#ourmenulink" class="menulinks" id="translate7">MENU</a>
+        <a href="#findusatlink" class="menulinks" id="translate8">LOCATIONS</a>
+        <a href="#footerlink" class="menulinks" id="translate9">ABOUT</a>
+        <a href="tel:017654564534" class="telefon-btn"> <img class="telefone" src="./img/phone.png" width="26"
+            height="26">0176/54564534</a>
+
+        <button onclick="translateFunction1()" class="button-language"><img class="img-language"
+            src="./img/flaggermany.png" alt="deutsch"></button>
+        <button onclick="translateFunction2()" class="button-language"><img class="img-language" src="./img/flagusa.png"
+            alt="englisch"></button>
+
+      </div>
+
+
+
+
+
+    </div>
+    <span class="header">
+      SAKURA RAMEN
+    </span>
+    <span class="header2" id="translate1">THE BEST RAMEN IN TOWN</span>
+  </div>
+  <section>
+    <h2 id="translate2">HOW TO ORDER</h2>
+    <div class="ordersteps">
+      <div class="order">
+        <img class="orderimg" src="./img/noodle.png">
+        <div class="ordertext" id="translate4">Pick your noodle</div>
+      </div>
+      <div id="ourmenulink" class="order">
+        <img class="orderimg" src="./img/broth.png">
+        <div class="ordertext" id="translate5">Pick your broth</div>
+      </div>
+      <div class="order">
+        <img class="orderimg" src="./img/egg.png">
+        <div class="ordertext" id="translate6">Add your toppings</div>
+      </div>
+    </div>
+  </section>
+  <section class="ourmenu">
+    <h2 id="translate3">OUR MENU</h2>
+
+    <div class="tonkatsu">
+      <img class="tonkatsuimg" src="./img/R1.png" alt="tonkatsuimg">
+      <div class="tonkatsutable">
+        <table class="width100">
+          <tr>
+            <th colspan="2" >
+              <h3>Tonkatsu Ramen</h3>
+            </th>
+          </tr>
+          <tr>
+            <td id="translate11">CHICKEN</td>
+            <td class="cbs" >11.95 €</td>
+          </tr>
+          <tr>
+            <td id="translate12">BEEF</td>
+            <td class="cbs" >12.95 €</td>
+          </tr>
+          <tr>
+            <td id="translate13">SHRIMP</td>
+            <td class="cbs" >13.95 €</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="spicy">
+      <img class="tonkatsuimg" src="./img/R2.png">
+      <div class="tonkatsutable">
+        <table class="width100">
+          <th colspan="2" >
+            <h3>Spicy Miso Ramen</h3>
+          </th>
+          <tr>
+            <td id="translate14">CHICKEN</td>
+            <td class="cbs" >11.95 €</td>
+          </tr>
+          <tr>
+            <td id="translate15">BEEF</td>
+            <td class="cbs" >12.95 €</td>
+          </tr>
+          <tr>
+            <td id="translate16">SHRIMP</td>
+            <td class="cbs" >13.95 €</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="tonkatsu">
+      <img class="tonkatsuimg" src="./img/R3.png" alt="tonkatsuimg">
+      <div class="tonkatsutable">
+        <table class="width100">
+          <tr>
+            <th colspan="2" >
+              <h3>Shio Ramen</h3>
+            </th>
+          </tr>
+          <tr>
+            <td id="translate17">CHICKEN</td>
+            <td class="cbs" >11.95 €</td>
+          </tr>
+          <tr>
+            <td id="translate18">BEEF</td>
+            <td class="cbs" >12.95 €</td>
+          </tr>
+          <tr>
+            <td id="translate19">SHRIMP</td>
+            <td class="cbs" >13.95 €</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+  </section>
+  <section>
+    <div id="findusatlink" class="findusat">
+      <div>
+        <h2 class="lo" id="translate10">FIND US AT</h2>
+        <img src="./img/map_marker.svg" ;>Kapuzinerstraße 31, München, BY 80337
+      </div>
+    </div>
+    <iframe class="iframe"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2663.2081517665038!2d11.561203299999999!3d48.125509099999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479ddf44d01affc5%3A0xe7a07e0710be63e8!2sKapuzinerstra%C3%9Fe%2031%2C%2080337%20M%C3%BCnchen!5e0!3m2!1sde!2sde!4v1699911571861!5m2!1sde!2sde"
+      style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </section>
+  <footer>
+    <img id="footerlink" class="flowerfooter" src="./img/sakura_ramen_logo_and_text.svg">
+    <div class="social">
+      <img class="inst" src="./img/tripadvisor_logo.svg">
+      <img class="inst" src="./img/facebook_logo.svg">
+      <img class="inst" src="./img/instagram_logo.svg">
+    </div>
+  </footer>
+
+  <script>
+
+    function translateFunction1() {
+      document.getElementById('translate1').innerHTML = `DAS BESTE RAMEN DER STADT`;
+      document.getElementById('translate2').innerHTML = `BESTELLEN`;
+      document.getElementById('translate3').innerHTML = `UNSER MENÜ`;
+      document.getElementById('translate4').innerHTML = `Nudel`;
+      document.getElementById('translate5').innerHTML = `Brühe`;
+      document.getElementById('translate6').innerHTML = `Sonstiges`;
+      document.getElementById('translate7').innerHTML = `Menü`;
+      document.getElementById('translate8').innerHTML = `Adresse`;
+      document.getElementById('translate9').innerHTML = `Über uns`;
+      document.getElementById('translate10').innerHTML = `Wo Sie uns finden`;
+      document.getElementById('translate11').innerHTML = `HUHN`;
+      document.getElementById('translate12').innerHTML = `RIND`;
+      document.getElementById('translate13').innerHTML = `GARNELE`;
+      document.getElementById('translate14').innerHTML = `HUHN`;
+      document.getElementById('translate15').innerHTML = `RIND`;
+      document.getElementById('translate16').innerHTML = `GARNELE`;
+      document.getElementById('translate17').innerHTML = `HUHN`;
+      document.getElementById('translate18').innerHTML = `RIND`;
+      document.getElementById('translate19').innerHTML = `GARNELE`;
+
+    }
+    function translateFunction2() {
+      document.getElementById('translate1').innerHTML = `THE BEST RAMEN IN TOWN`;
+      document.getElementById('translate2').innerHTML = `HOW TO ORDER`;
+      document.getElementById('translate3').innerHTML = `OUR MENU`;
+      document.getElementById('translate4').innerHTML = `Pick your noodle`;
+      document.getElementById('translate5').innerHTML = `Pick your broth`;
+      document.getElementById('translate6').innerHTML = `Add your toppings`;
+      document.getElementById('translate7').innerHTML = `MENU`;
+      document.getElementById('translate8').innerHTML = `LOCATIONS`;
+      document.getElementById('translate9').innerHTML = `ABOUT`;
+      document.getElementById('translate10').innerHTML = `FIND US AT`;
+      document.getElementById('translate11').innerHTML = `CHICKEN`;
+      document.getElementById('translate12').innerHTML = `BEEF`;
+      document.getElementById('translate13').innerHTML = `SHRIMP`;
+      document.getElementById('translate14').innerHTML = `CHICKEN`;
+      document.getElementById('translate15').innerHTML = `BEEF`;
+      document.getElementById('translate16').innerHTML = `SHRIMP`;
+      document.getElementById('translate17').innerHTML = `CHICKEN`;
+      document.getElementById('translate18').innerHTML = `BEEF`;
+      document.getElementById('translate19').innerHTML = `SHRIMP`;
+    }
+
+  </script>
+</body>
+
+</html>
