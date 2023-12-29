@@ -286,6 +286,34 @@ footer {
   display: flex;
   justify-content: space-around;
 }
+.overlay-menu {
+   position: absolute;
+  display: none;
+  flex-direction: column;
+  width: 150px;
+  height: 200px;
+  right: 0;
+  top: 0;
+  border-left: 1px solid black;
+  z-index: 2;
+  transform: translateX(501px);
+  transition: all 225ms ease-in-out;
+  color: white;
+  text-decoration: none;
+}
+
+.show-overlay-menu {
+  transform: translateX(0);
+}
+.bars {
+  display: none;
+  position: absolute;
+  right: 16px;
+  width: 50px;
+  top: 16px;
+  cursor: pointer;
+  background-color: #FCC4A3;
+}
 
 @media(max-width: 1200px) {
 
@@ -310,6 +338,13 @@ footer {
 @media(max-width: 900px) {
   .menu {
     display: none;
+  }
+  .bars {
+display: flex;
+
+}
+  .overlay-menu {
+    display: flex
   }
 
   .header {
@@ -359,6 +394,7 @@ footer {
   }
   .header2 {
     text-align: center;
+    padding: 5px;
   }
   .flowerfooter {
     display: none;

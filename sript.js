@@ -41,3 +41,13 @@ function translateFunction1() {
     document.getElementById('translate18').innerHTML = `BEEF`;
     document.getElementById('translate19').innerHTML = `SHRIMP`;
   }
+
+  function showMenu() {
+    document.getElementById('menu').classList.add('show-overlay-menu');
+
+}
+
+function closeMenu(){
+    document.getElementById('menu').classList.remove('show-overlay-menu');
+
+}
